@@ -1,0 +1,17 @@
+{
+  "name": "meta",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowk8s/meta.git"
+  },
+  "scripts": {
+    "text-run": "text-run"
+  },
+  "devDependencies": {
+    "license-checker": "^25.0.1",
+    "prettier": "2.7.1",
+    "prettier-plugin-packagejson": "^2.2.18",
+    "text-runner": "5.0.2"
+  }
+}

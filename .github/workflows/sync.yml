@@ -1,0 +1,14 @@
+name: Synchronize Repositories
+
+on:
+  # action can be manually triggered
+  workflow_dispatch:
+  # action is triggered on push to the following paths
+  push:
+    paths:
+      - "templates/**"
+      - "scripts/sync*"
+      - "package.json"
+      - ".github/workflows/sync.yml"
+    branches:
+      - main
